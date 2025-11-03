@@ -76,13 +76,13 @@ while True:
                     status = 'Gold'
 
                 print("\033[1m\x1B[4m" + 'MENU TRANSAKSI' + "\x1B[0m")
-                print('1. Payment\n2. Reedem Points\n3. Cek Points, Voucher, and Loyalty Status\n4. Kembali ke Main Menu\n')
+                print('1. Payment\n2. Redeem Points\n3. Cek Points, Voucher, and Loyalty Status\n4. Kembali ke Main Menu\n')
                 while(True):
                     menu = input('Masukkan pilihan anda: ')
                     if not menu.isdigit():
                         co()
                         print("\033[1m\x1B[4m" + 'MENU TRANSAKSI' + "\x1B[0m")
-                        print('1. Payment\n2. Reedem Points\n3. Cek Points, Voucher, and Loyalty Status\n4. Kembali\n')
+                        print('1. Payment\n2. Redeem Points\n3. Cek Points, Voucher, and Loyalty Status\n4. Kembali\n')
                         print('\033[3mInput tidak valid, silakan masukkan angka.\033[0m')
                         continue
                     menu = int(menu)
@@ -198,7 +198,7 @@ while True:
                             data_points[id_customer - 100] -= 500
                             co()
                             print("\033[1m\x1B[4m" + 'REDEEM POINTS' + "\x1B[0m")
-                            print(f'Reedem points berhasil, Total points anda: {data_points[id_customer - 100]} points')
+                            print(f'Redeem points berhasil, Total points anda: {data_points[id_customer - 100]} points')
                             input('\nTekan ENTER untuk kembali ke Menu Transaksi... ')
                             co()
                         else:
@@ -212,7 +212,7 @@ while True:
                             data_points[id_customer - 100] -= 950
                             co()
                             print("\033[1m\x1B[4m" + 'REDEEM POINTS' + "\x1B[0m")
-                            print(f'Reedem points berhasil, Total points anda: {data_points[id_customer - 100]} points')
+                            print(f'Redeem points berhasil, Total points anda: {data_points[id_customer - 100]} points')
                             input('\nTekan ENTER untuk kembali ke Menu Transaksi... ')
                             co()
                         else:
@@ -227,7 +227,7 @@ while True:
                             data_points[id_customer - 100] -= 1800
                             co()
                             print("\033[1m\x1B[4m" + 'REDEEM POINTS' + "\x1B[0m")
-                            print(f'Reedem points berhasil, Total points anda: {data_points[id_customer - 100]} points')
+                            print(f'Redeem points berhasil, Total points anda: {data_points[id_customer - 100]} points')
                             input('\nTekan ENTER untuk kembali ke Menu Transaksi... ')
                             co()
                         else:
