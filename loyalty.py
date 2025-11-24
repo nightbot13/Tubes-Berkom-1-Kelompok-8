@@ -308,3 +308,7 @@ while True:
     else:
         co()
         print('Silakan pilih menu yang tersedia\n.')
+
+def danesh(a, b, c):
+    if a == b and b == c:
+        return a, b, c
